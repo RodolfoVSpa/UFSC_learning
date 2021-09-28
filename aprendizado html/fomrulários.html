@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Formulários</title> 
+	<title>Adicionando imagens</title>
+	<style>
+	   body{ 
+	   	background-color: skyblue;
+	   	color: black;
+	   	background-image: none;
+	   </style>
+</head>
+
+<div></div>
+
+<body>
+	<form action="processa.php" method="post">
+
+		<label>text</label>
+		<input type="text" name="texto 1" placeholder="apenas um teste">
+		<br>
+		<label>password</label>
+		<input type="password" name="senha" placeholder="senha">
+
+		<input type="hidden" name="oculto" value="oculto">
+		<br>
+		<label>Select</label>
+		<select name="selecao">
+			<option value="1">opção 1</option>
+			<option value="2">opção 2</option>
+		</select>
+		<br>
+		<label>radio</label><br>
+		<input type="radio" name="radio1" value="1"> teste<br>
+		<input type="radio" name="radio1" value="2"> teste 2<br>
+
+		<label>check</label>
+		<br>
+		<input type="checkbox" name="ck1" value="1"> valor1<br>
+		<input type="checkbox" name="ck1" value="2"> valor2<br>
+		<input type="submit" value="enviar">
+	</form>
+
+
+
+
+</body>

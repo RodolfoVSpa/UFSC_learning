@@ -1,0 +1,12 @@
+<!DOCTYPE HTM>
+<HTML LANG="PT-BR">
+<head>
+	<meta charset="utf-8">
+	<title>Aprendendo sobre tags</title>
+</head>
+
+<body>
+	<p>Ola mundo!</p>
+	<p>novo paragrafo</p>
+	sem paragrafo
+</body>
